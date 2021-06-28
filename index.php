@@ -241,11 +241,11 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>Hammad Yasir</span></strong>. All Rights Reserved
+        Sheffield University Economics Department 
       </div>
-      <div class="credits">
+      <!-- <div class="credits">
         Designed by <a href="">Hammad Yasir</a>
-      </div>
+      </div> -->
     </div>
   </footer><!-- End Footer -->
 
