@@ -132,7 +132,7 @@
                   <small class="text-muted">Click Go to Map</small>
                 </h3>
                 <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-                <a target=”_blank” href="cityofLondon_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:100px;width: 400px;"></a>
+                <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:100px;width: 400px;"></a>
               </div>
              
             </div>
