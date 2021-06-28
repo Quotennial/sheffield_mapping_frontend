@@ -122,9 +122,8 @@
         <div class="row">
           <div class="col-lg-12 col-md-12  align-items-stretch">
             <div class="icon-box">
-              <h4><a href="">MAP VISUALISATION </a></h4>
-              <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-
+              <h4><a href="">Static Data </a></h4>
+              <p style="text-align:justify"> This map presents the static variables used in the study, and the most recent covid metrics.
               </p>
               <br>
               <div class="text-center">
@@ -150,8 +149,7 @@
           <div class="col-lg-12 col-md-12  align-items-stretch">
             <div class="icon-box">
               <h4><a href="">TIME SERIES</a></h4>
-              <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-
+              <p style="text-align:justify">This map presents a look through time of the covid statistics. 
               </p>
               <br>
               <div class="text-center">
@@ -159,7 +157,7 @@
                   <small class="text-muted">Click Go to Map</small>
                 </h3>
                 <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-                <a target=”_blank” href="cityofLondon_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:100px;width: 400px;"></a>
+                <a target=”_blank” href="Dynamic_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:100px;width: 400px;"></a>
               </div>
             </div>
           </div>
@@ -176,9 +174,8 @@
         <div class="row">
           <div class="col-lg-12 col-md-12  align-items-stretch">
             <div class="icon-box">
-              <h4><a href="">LOCAL AUTORITIES</a></h4>
-              <p style="text-align:justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-
+              <h4><a href="">Master Map </a></h4>
+              <p style="text-align:justify">This map is a large file, bringing together both dynamic and static attributes.
               </p>
               <br>
               <div class="text-center">
@@ -186,7 +183,7 @@
                   <small class="text-muted">Click Go to Map</small>
                 </h3>
                 <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-                <a target=”_blank” href="cityofLondon_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:100px;width: 400px;"></a>
+                <a target=”_blank” href="Mastermap_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:100px;width: 400px;"></a>
               </div>
             </div>
           </div>
