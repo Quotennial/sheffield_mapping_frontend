@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto Mono', cursive;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 300;
     margin: 0;
 }
