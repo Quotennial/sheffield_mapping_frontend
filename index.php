@@ -68,9 +68,9 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1> Mapping Project</h1><br>
-          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <p class="description">This is a project about COVID using data and presenting in this geospatial tool </p>
+          <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
+          <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
          
         </div>
         <div class="col-lg-6 order-1 order-lg-2 ">
@@ -94,7 +94,7 @@
             <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>Please write here about himself</h3>
+            <h3>This is a bit about the team</h3>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
