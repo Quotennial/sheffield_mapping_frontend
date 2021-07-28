@@ -168,31 +168,7 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= LOCAL AUTORITIES ======= -->
-    <section id="team" class="services section-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12  align-items-stretch">
-            <div class="icon-box">
-              <h4><a href="">Master Map </a></h4>
-              <p style="text-align:justify">This map is a large file, bringing together both dynamic and static attributes.
-              </p>
-              <br>
-              <div class="text-center">
-                <h3 class="h5">
-                  <small class="text-muted">Click Go to Map</small>
-                </h3>
-                <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-                <a target=”_blank” href="Mastermap_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
-              </div>
-            </div>
-          </div>
 
-        </div>
-
-
-      </div>
-    </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
