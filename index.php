@@ -133,7 +133,62 @@
                 <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
                 <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
               </div>
-             
+             <table border="0" width="768" cellspacing="0" cellpadding="0"><colgroup><col width="124" /><col width="644" /></colgroup>
+<tbody>
+<tr>
+<td class="xl64" width="124" height="21">Variable Label</td>
+<td width="644">Description</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="107">Deprivation Score</td>
+<td class="xl64" width="644">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation. Source: ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="64">Health Deprivation Score</td>
+<td class="xl64" width="644">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health. Source: ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="43">Share Old Population</td>
+<td class="xl64" width="644">Share of old population (above 60 years old) over total population in the MSOA in 2019. Source: ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="43">Share White Ethnicity</td>
+<td class="xl64" width="644">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="43">House Crowding Rate</td>
+<td class="xl64" width="644">House crowding calculates as the total population divided by the number of residential properties in the MSOA. Source: ONS and Valuation Office Agency</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="64">Daytime Population Density</td>
+<td class="xl64" width="644">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="64">Nighttime Population Density</td>
+<td class="xl64" width="644">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="107">Satellite Population Density</td>
+<td class="xl64" width="644">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques. Source: LandScan</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="43">Population Density</td>
+<td class="xl64" width="644">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters. Source: ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="64">Employment Density</td>
+<td class="xl64" width="644">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA. Source: QLFS ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="43">COVID-19 Cases April 2021</td>
+<td class="xl63" width="644">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021. Source: ONS</td>
+</tr>
+<tr>
+<td class="xl64" width="124" height="43">COVID-19 Deaths April 2021</td>
+<td class="xl63" width="644">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021. Source: ONS</td>
+</tr>
+</tbody>
+</table>
             </div>
           </div>
 
