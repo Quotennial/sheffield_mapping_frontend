@@ -84,7 +84,7 @@
   <main id="main">
     <br>
 
-    <!-- ======= Viz Alternative Section ======= -->
+    <!-- ======= Static VIZ ======= -->
     <section id="about" class="services section-bg">
       <div class="container">
         <div class="section-title">
@@ -110,59 +110,32 @@
       </div>
     </section><!-- End Viz alt Section -->
 
-
-
-    <!-- ======= VISUALISATION Section ======= -->
-    <section id="services" class="services section-bg">
+    <!-- ======= Timeseries VIZ ======= -->
+    <section id="about" class="services section-bg">
       <div class="container">
+        <div class="section-title">
+          <h4>Time Series Data</h4>
+        </div>
         <div class="row">
-          <div class="col-lg-12 col-md-12  align-items-stretch">
-            <div class="icon-box">
-              <h4><a href="">Static Data </a></h4>
-              <p style="text-align:justify"> This map presents the static variables used in the study, and the most recent covid metrics.
-              </p>
-              <br>
-              <div class="text-center">
-                <h3 class="h5">
-                  <small class="text-muted">Click Go to Map</small>
-                </h3>
-                <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-                <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
-              </div>
-
+          <div class="col-lg-6">
+            <p>
+              This map presents the Time Series variables used in the study, and the most recent covid metrics.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="Dynamic_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
             </div>
           </div>
-
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Viz alt Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="services section-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12  align-items-stretch">
-            <div class="icon-box">
-              <h4><a href="">TIME SERIES</a></h4>
-              <p style="text-align:justify">This map presents a look through time of the covid statistics.
-              </p>
-              <br>
-              <div class="text-center">
-                <h3 class="h5">
-                  <small class="text-muted">Click Go to Map</small>
-                </h3>
-                <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-                <a target=”_blank” href="Dynamic_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-      </div>
-    </section><!-- End Portfolio Section -->
 
 
     <!-- ======= Portfolio Section ======= -->
