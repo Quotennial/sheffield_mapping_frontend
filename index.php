@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
 
 
   <!-- Vendor CSS Files -->
@@ -41,7 +41,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="https://www.sheffield.ac.uk/economics"><img src="assets/img/logo.jpeg"/></a></h1>
+      <h1 class="logo"><a href="https://www.sheffield.ac.uk/economics"><img src="assets/img/logo.jpeg" /></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -53,7 +53,7 @@
           <li><a class="nav-link scrollto " href="#portfolio">Time Series</a></li>
           <li><a class="nav-link scrollto" href="#team">Local Autorities</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-         
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -71,7 +71,7 @@
           <p class="description">This is a project about COVID using data and presenting in this geospatial tool </p>
           <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
           <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
-         
+
         </div>
         <div class="col-lg-6 order-1 order-lg-2 ">
           <img src="assets/img/placehodlermapimage.png" class="img-fluid " alt="">
@@ -113,7 +113,36 @@
 
       </div>
     </section><!-- End About Section -->
-    
+
+
+
+    <!-- ======= Viz Alternative Section ======= -->
+    <section id="about" class="services section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Static Data</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+              This map presents the static variables used in the study, and the most recent covid metrics.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>This is a bit about the team</h3>
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Viz alt Section -->
+
 
 
     <!-- ======= VISUALISATION Section ======= -->
@@ -133,62 +162,7 @@
                 <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
                 <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
               </div>
-             <table border="0" width="768" cellspacing="0" cellpadding="0"><colgroup><col width="124" /><col width="644" /></colgroup>
-<tbody>
-<tr>
-<td class="xl64" width="124" height="21">Variable Label</td>
-<td width="644">Description</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="107">Deprivation Score</td>
-<td class="xl64" width="644">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation. Source: ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="64">Health Deprivation Score</td>
-<td class="xl64" width="644">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health. Source: ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="43">Share Old Population</td>
-<td class="xl64" width="644">Share of old population (above 60 years old) over total population in the MSOA in 2019. Source: ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="43">Share White Ethnicity</td>
-<td class="xl64" width="644">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="43">House Crowding Rate</td>
-<td class="xl64" width="644">House crowding calculates as the total population divided by the number of residential properties in the MSOA. Source: ONS and Valuation Office Agency</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="64">Daytime Population Density</td>
-<td class="xl64" width="644">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="64">Nighttime Population Density</td>
-<td class="xl64" width="644">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="107">Satellite Population Density</td>
-<td class="xl64" width="644">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques. Source: LandScan</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="43">Population Density</td>
-<td class="xl64" width="644">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters. Source: ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="64">Employment Density</td>
-<td class="xl64" width="644">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA. Source: QLFS ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="43">COVID-19 Cases April 2021</td>
-<td class="xl63" width="644">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021. Source: ONS</td>
-</tr>
-<tr>
-<td class="xl64" width="124" height="43">COVID-19 Deaths April 2021</td>
-<td class="xl63" width="644">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021. Source: ONS</td>
-</tr>
-</tbody>
-</table>
+
             </div>
           </div>
 
@@ -204,7 +178,7 @@
           <div class="col-lg-12 col-md-12  align-items-stretch">
             <div class="icon-box">
               <h4><a href="">TIME SERIES</a></h4>
-              <p style="text-align:justify">This map presents a look through time of the covid statistics. 
+              <p style="text-align:justify">This map presents a look through time of the covid statistics.
               </p>
               <br>
               <div class="text-center">
@@ -220,6 +194,80 @@
         </div>
 
 
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="services section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12  align-items-stretch">
+            <div class="icon-box">
+              <h4><a href="">Variable Descriptions</a></h4>
+              <table style="height: 946px; border-style: groove; width: 746px; border-color: #469ddb; float: left;" border="4" width="746" cellspacing="0" cellpadding="0">
+                <colgroup>
+                  <col width="124" />
+                  <col width="644" />
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="21">Variable Label</td>
+                    <td style="width: 619.421875px;">Description</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="107">Deprivation Score</td>
+                    <td class="xl64" style="width: 619.421875px;">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation. Source: ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="64">Health Deprivation Score</td>
+                    <td class="xl64" style="width: 619.421875px;">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health. Source: ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="43">Share Old Population</td>
+                    <td class="xl64" style="width: 619.421875px;">Share of old population (above 60 years old) over total population in the MSOA in 2019. Source: ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="43">Share White Ethnicity</td>
+                    <td class="xl64" style="width: 619.421875px;">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="43">House Crowding Rate</td>
+                    <td class="xl64" style="width: 619.421875px;">House crowding calculates as the total population divided by the number of residential properties in the MSOA. Source: ONS and Valuation Office Agency</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="64">Daytime Population Density</td>
+                    <td class="xl64" style="width: 619.421875px;">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="64">Nighttime Population Density</td>
+                    <td class="xl64" style="width: 619.421875px;">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="107">Satellite Population Density</td>
+                    <td class="xl64" style="width: 619.421875px;">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques. Source: LandScan</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="43">Population Density</td>
+                    <td class="xl64" style="width: 619.421875px;">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters. Source: ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="64">Employment Density</td>
+                    <td class="xl64" style="width: 619.421875px;">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA. Source: QLFS ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="43">COVID-19 Cases April 2021</td>
+                    <td class="xl63" style="width: 619.421875px;">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021. Source: ONS</td>
+                  </tr>
+                  <tr>
+                    <td class="xl64" style="width: 120.59375px;" height="43">COVID-19 Deaths April 2021</td>
+                    <td class="xl63" style="width: 619.421875px;">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021. Source: ONS</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -249,13 +297,13 @@
                 <h4>Call:</h4>
                 <p>+ 0114 222 5151</p>
               </div>
-              
+
               <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13613.293980442373!2d74.32354245!3d31.460286199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1624361784898!5m2!1sen!2s" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
             </div>
 
           </div>
 
-          
+
 
         </div>
 
@@ -269,7 +317,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        Sheffield University Economics Department 
+        Sheffield University Economics Department
       </div>
       <!-- <div class="credits">
         Designed by <a href="">Hammad Yasir</a>
