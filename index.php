@@ -145,66 +145,105 @@
           <div class="col-lg-12 col-md-12  align-items-stretch">
             <div class="icon-box">
               <h4><a href="">Variable Descriptions</a></h4>
-              <table style="height: 946px; border-style: groove; width: 746px; border-color: #469ddb; float: left;" border="4" width="746" cellspacing="0" cellpadding="0">
-                <colgroup>
-                  <col width="124" />
-                  <col width="644" />
-                </colgroup>
+
+              <style type="text/css">
+                .tg {
+                  border-collapse: collapse;
+                  border-spacing: 0;
+                }
+
+                .tg td {
+                  border-color: black;
+                  border-style: solid;
+                  border-width: 1px;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  overflow: hidden;
+                  padding: 10px 5px;
+                  word-break: normal;
+                }
+
+                .tg th {
+                  border-color: black;
+                  border-style: solid;
+                  border-width: 1px;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  font-weight: normal;
+                  overflow: hidden;
+                  padding: 10px 5px;
+                  word-break: normal;
+                }
+
+                .tg .tg-cly1 {
+                  text-align: left;
+                  vertical-align: middle
+                }
+
+                .tg .tg-7zrl {
+                  text-align: left;
+                  vertical-align: bottom
+                }
+              </style>
+              <table class="tg">
+                <thead>
+                  <tr>
+                    <th class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Variable Label</span></th>
+                    <th class="tg-7zrl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Description</span></th>
+                  </tr>
+                </thead>
                 <tbody>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="21">Variable Label</td>
-                    <td style="width: 619.421875px;">Description</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Deprivation Score</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation. Source: ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="107">Deprivation Score</td>
-                    <td class="xl64" style="width: 619.421875px;">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation. Source: ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Health Deprivation Score</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health. Source: ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="64">Health Deprivation Score</td>
-                    <td class="xl64" style="width: 619.421875px;">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health. Source: ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share Old Population</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share of old population (above 60 years old) over total population in the MSOA in 2019. Source: ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="43">Share Old Population</td>
-                    <td class="xl64" style="width: 619.421875px;">Share of old population (above 60 years old) over total population in the MSOA in 2019. Source: ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share White Ethnicity</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="43">Share White Ethnicity</td>
-                    <td class="xl64" style="width: 619.421875px;">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">House Crowding Rate</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">House crowding calculates as the total population divided by the number of residential properties in the MSOA. Source: ONS and Valuation Office Agency</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="43">House Crowding Rate</td>
-                    <td class="xl64" style="width: 619.421875px;">House crowding calculates as the total population divided by the number of residential properties in the MSOA. Source: ONS and Valuation Office Agency</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Daytime Population Density</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="64">Daytime Population Density</td>
-                    <td class="xl64" style="width: 619.421875px;">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Nighttime Population Density</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="64">Nighttime Population Density</td>
-                    <td class="xl64" style="width: 619.421875px;">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Satellite Population Density</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques. Source: LandScan</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="107">Satellite Population Density</td>
-                    <td class="xl64" style="width: 619.421875px;">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques. Source: LandScan</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Population Density</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters. Source: ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="43">Population Density</td>
-                    <td class="xl64" style="width: 619.421875px;">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters. Source: ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Employment Density</span></td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA. Source: QLFS ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="64">Employment Density</td>
-                    <td class="xl64" style="width: 619.421875px;">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA. Source: QLFS ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">COVID-19 Cases April 2021</span></td>
+                    <td class="tg-7zrl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021. Source: ONS</span></td>
                   </tr>
                   <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="43">COVID-19 Cases April 2021</td>
-                    <td class="xl63" style="width: 619.421875px;">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021. Source: ONS</td>
-                  </tr>
-                  <tr>
-                    <td class="xl64" style="width: 120.59375px;" height="43">COVID-19 Deaths April 2021</td>
-                    <td class="xl63" style="width: 619.421875px;">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021. Source: ONS</td>
+                    <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">COVID-19 Deaths April 2021</span></td>
+                    <td class="tg-7zrl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021. Source: ONS</span></td>
                   </tr>
                 </tbody>
               </table>
+
             </div>
           </div>
         </div>
