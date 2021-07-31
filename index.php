@@ -69,7 +69,7 @@
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1> Mapping Project</h1><br>
           <p class="description">This is a project about COVID using data and presenting in this geospatial tool </p>
-          <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
+          <p class="description">The project uses kepler.gl to visualise socioeconomic metrics and Covid data.</p>
           <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
 
         </div>
@@ -93,7 +93,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-              This map presents the static variables used in the study, and the most recent covid metrics.
+              This map presents the static variables used in the study, and the most recent covid metrics. The left hand arrow allows you to view various explanatory vairables. MSOA areas are coloured based on these explanatory variables, which can be compared to covid cases shown by height in 3D view. You can toggle between metrics by hiding/ showing different layers. COVID statistics are as od April 2021.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
@@ -119,7 +119,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-              This map presents the Time Series variables used in the study, and the most recent covid metrics.
+              This map presents the Time Series variables used in the study, and the most recent covid metrics. You can visualisse the change over time using the time slider.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
