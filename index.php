@@ -71,11 +71,11 @@
           <img src="assets/img/placehodlermapimage.png" class="img-fluid " alt="">
         </div>
       </div>
-          <p class="description">One of the most striking features of the COVID-19 pandemic is the marked spatial heterogeneity in both COVID-19 cases and deaths. Previous research has shown how such variation broadly reflects differences in the socio-economic structure across locations, and particular attention has been devoted to the analysis of population density. Yet, its relationship with the spread of COVID-19 remains unclear. </p>
-          <p class="description">Combining highly granular data at the neighbourhood level for England on COVID-19 cases and deaths, satellite imaging density and other socio-economic variables, we take a closer look at the relationship between urban density and the health consequences of COVID-19, disentangling between the role of population and employment density.</p>
-          <p class="description">This website provides an interactive mapping tool using kepler.gl to visualise the dynamic evolution of COVID-19 cases and deaths across neighbourhoods in England between March 2020 and April 2021, and to analyse its static spatial correlation with urban density and other socio-economic metrics. An advanced econometric analysis of the relationship between density and the health consequences of the COVID-19 pandemic is presented in the project research paper, offering novel evidence on the different effects exerted by population and employment density.</p>
-          <p class="description">This research project is part of a new line of empirical investigation that uses information from unstructured forms of data to fill the gaps in more conventional datasets. It provides important insights not just to better understand the determinants of diffusion of the virus, but equally to understand which areas could remain more at risk. A better understanding of the role of density is critical for public health policies directed at mitigating the diffusion of COVID. In particular, a more nuanced comprehension of where and how contagion takes place, whether at home or at the place of work, and in the latter case through which type of jobs, will be increasingly important. At the same time, this is also critical for designing policies addressing economic effects of the crisis.</p>
-          <p class="description">This research project has been developed in collaboration between the University of Sheffield and the University of Birmingham, funded by the Regional Studies Association grant scheme on “Pandemics, Cities, Regions & Industry”."</p>
+      <p class="description">One of the most striking features of the COVID-19 pandemic is the marked spatial heterogeneity in both COVID-19 cases and deaths. Previous research has shown how such variation broadly reflects differences in the socio-economic structure across locations, and particular attention has been devoted to the analysis of population density. Yet, its relationship with the spread of COVID-19 remains unclear. </p>
+      <p class="description">Combining highly granular data at the neighbourhood level for England on COVID-19 cases and deaths, satellite imaging density and other socio-economic variables, we take a closer look at the relationship between urban density and the health consequences of COVID-19, disentangling between the role of population and employment density.</p>
+      <p class="description">This website provides an interactive mapping tool using kepler.gl to visualise the dynamic evolution of COVID-19 cases and deaths across neighbourhoods in England between March 2020 and April 2021, and to analyse its static spatial correlation with urban density and other socio-economic metrics. An advanced econometric analysis of the relationship between density and the health consequences of the COVID-19 pandemic is presented in the project research paper, offering novel evidence on the different effects exerted by population and employment density.</p>
+      <p class="description">This research project is part of a new line of empirical investigation that uses information from unstructured forms of data to fill the gaps in more conventional datasets. It provides important insights not just to better understand the determinants of diffusion of the virus, but equally to understand which areas could remain more at risk. A better understanding of the role of density is critical for public health policies directed at mitigating the diffusion of COVID. In particular, a more nuanced comprehension of where and how contagion takes place, whether at home or at the place of work, and in the latter case through which type of jobs, will be increasingly important. At the same time, this is also critical for designing policies addressing economic effects of the crisis.</p>
+      <p class="description">This research project has been developed in collaboration between the University of Sheffield and the University of Birmingham, funded by the Regional Studies Association grant scheme on “Pandemics, Cities, Regions & Industry”."</p>
     </div>
   </section><!-- End Hero -->
 
@@ -233,13 +233,18 @@
           <style type="text/css">
             .tg {
               border-collapse: collapse;
+              border-color: #aabcfe;
               border-spacing: 0;
+              border-style: solid;
+              border-width: 1px;
             }
 
             .tg td {
-              border-color: black;
+              background-color: #e8edff;
+              border-color: #aabcfe;
               border-style: solid;
-              border-width: 1px;
+              border-width: 0px;
+              color: #669;
               font-family: Arial, sans-serif;
               font-size: 14px;
               overflow: hidden;
@@ -248,9 +253,11 @@
             }
 
             .tg th {
-              border-color: black;
+              background-color: #b9c9fe;
+              border-color: #aabcfe;
               border-style: solid;
-              border-width: 1px;
+              border-width: 0px;
+              color: #039;
               font-family: Arial, sans-serif;
               font-size: 14px;
               font-weight: normal;
@@ -259,11 +266,27 @@
               word-break: normal;
             }
 
+            .tg .tg-34ux {
+              background-color: #D2E4FC;
+              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+              ;
+              text-align: left;
+              vertical-align: bottom
+            }
+
             .tg .tg-2nc7 {
               font-family: "Trebuchet MS", Helvetica, sans-serif !important;
               ;
               text-align: left;
               vertical-align: bottom
+            }
+
+            .tg .tg-wz43 {
+              background-color: #D2E4FC;
+              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+              ;
+              text-align: left;
+              vertical-align: top
             }
 
             .tg .tg-zef7 {
@@ -283,9 +306,9 @@
             </thead>
             <tbody>
               <tr>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Deprivation Score</span></td>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
-                <td class="tg-2nc7">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Deprivation Score</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Health Deprivation Score</span></td>
@@ -293,9 +316,9 @@
                 <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share Old Population</span></td>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
-                <td class="tg-2nc7">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Share Old Population</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share White Ethnicity</span></td>
@@ -303,9 +326,9 @@
                 <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">House Crowding Rate</span></td>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
-                <td class="tg-zef7">ONS and Valuation Office Agency</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">House Crowding Rate</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
+                <td class="tg-wz43">ONS and Valuation Office Agency</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Daytime Population Density</span></td>
@@ -313,9 +336,9 @@
                 <td class="tg-zef7">European Commission JRC</td>
               </tr>
               <tr>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Nighttime Population Density</span></td>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
-                <td class="tg-zef7">European Commission JRC</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Nighttime Population Density</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
+                <td class="tg-wz43">European Commission JRC</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Satellite Population Density</span></td>
@@ -323,9 +346,9 @@
                 <td class="tg-2nc7">LandScan</td>
               </tr>
               <tr>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Population Density</span></td>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
-                <td class="tg-2nc7">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Population Density</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Employment Density</span></td>
@@ -333,9 +356,9 @@
                 <td class="tg-2nc7">QLFS ONS</td>
               </tr>
               <tr>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">COVID-19 Cases April 2021</span></td>
-                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
-                <td class="tg-2nc7">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">COVID-19 Cases April 2021</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">COVID-19 Deaths April 2021</span></td>
@@ -345,34 +368,7 @@
             </tbody>
           </table>
 
-
         </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About Us</h2>
-        </div>
-        <div class="row">
-          <h3>About Us</h3>
-          <p>
-            <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
-          </p>
-          <p>
-            <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
-          </p>
-          <p>
-            <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
-          </p>
-          <p>
-            This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website.
-          </p>
-        </div>
-
-      </div>
     </section><!-- End About Section -->
 
 
