@@ -233,17 +233,18 @@
 
           <style type="text/css">
             .tg {
+              border: none;
               border-collapse: collapse;
-              border-color: #9ABAD9;
+              border-color: #aabcfe;
               border-spacing: 0;
             }
 
             .tg td {
-              background-color: #EBF5FF;
-              border-color: #9ABAD9;
+              background-color: #e8edff;
+              border-color: #aabcfe;
               border-style: solid;
-              border-width: 1px;
-              color: #444;
+              border-width: 0px;
+              color: #669;
               font-family: Arial, sans-serif;
               font-size: 14px;
               overflow: hidden;
@@ -252,11 +253,11 @@
             }
 
             .tg th {
-              background-color: #409cff;
-              border-color: #9ABAD9;
+              background-color: #b9c9fe;
+              border-color: #aabcfe;
               border-style: solid;
-              border-width: 1px;
-              color: #fff;
+              border-width: 0px;
+              color: #039;
               font-family: Arial, sans-serif;
               font-size: 14px;
               font-weight: normal;
@@ -265,24 +266,32 @@
               word-break: normal;
             }
 
-            .tg .tg-hmp3 {
+            .tg .tg-34ux {
               background-color: #D2E4FC;
+              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+              ;
+              text-align: left;
+              vertical-align: bottom
+            }
+
+            .tg .tg-2nc7 {
+              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+              ;
+              text-align: left;
+              vertical-align: bottom
+            }
+
+            .tg .tg-wz43 {
+              background-color: #D2E4FC;
+              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+              ;
               text-align: left;
               vertical-align: top
             }
 
-            .tg .tg-7zrl {
-              text-align: left;
-              vertical-align: bottom
-            }
-
-            .tg .tg-f0ep {
-              background-color: #D2E4FC;
-              text-align: left;
-              vertical-align: bottom
-            }
-
-            .tg .tg-0lax {
+            .tg .tg-zef7 {
+              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+              ;
               text-align: left;
               vertical-align: top
             }
@@ -290,71 +299,71 @@
           <table class="tg">
             <thead>
               <tr>
-                <th class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Variable Label</span></th>
-                <th class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Description</span></th>
-                <th class="tg-7zrl">Source</th>
+                <th class="tg-2nc7"><span style="font-weight:normal;color:#000">Variable Label</span></th>
+                <th class="tg-2nc7"><span style="font-weight:normal;color:#000">Description</span></th>
+                <th class="tg-2nc7">Source</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Deprivation Score</span></td>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
-                <td class="tg-f0ep">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Deprivation Score</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Health Deprivation Score</span></td>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health.</span></td>
-                <td class="tg-7zrl">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Health Deprivation Score</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health.</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share Old Population</span></td>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
-                <td class="tg-f0ep">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Share Old Population</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share White Ethnicity</span></td>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</span></td>
-                <td class="tg-7zrl">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share White Ethnicity</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">House Crowding Rate</span></td>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
-                <td class="tg-hmp3">ONS and Valuation Office Agency</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">House Crowding Rate</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
+                <td class="tg-wz43">ONS and Valuation Office Agency</td>
               </tr>
               <tr>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Daytime Population Density</span></td>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011.</span></td>
-                <td class="tg-0lax">European Commission JRC</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Daytime Population Density</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011.</span></td>
+                <td class="tg-zef7">European Commission JRC</td>
               </tr>
               <tr>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Nighttime Population Density</span></td>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
-                <td class="tg-hmp3">European Commission JRC</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Nighttime Population Density</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
+                <td class="tg-wz43">European Commission JRC</td>
               </tr>
               <tr>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Satellite Population Density</span></td>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques.</span></td>
-                <td class="tg-7zrl">LandScan</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Satellite Population Density</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques.</span></td>
+                <td class="tg-2nc7">LandScan</td>
               </tr>
               <tr>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Population Density</span></td>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
-                <td class="tg-f0ep">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Population Density</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Employment Density</span></td>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA.</span></td>
-                <td class="tg-7zrl">QLFS ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Employment Density</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA.</span></td>
+                <td class="tg-2nc7">QLFS ONS</td>
               </tr>
               <tr>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">COVID-19 Cases April 2021</span></td>
-                <td class="tg-f0ep"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
-                <td class="tg-f0ep">ONS</td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">COVID-19 Cases April 2021</span></td>
+                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
+                <td class="tg-34ux">ONS</td>
               </tr>
               <tr>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">COVID-19 Deaths April 2021</span></td>
-                <td class="tg-7zrl"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021.</span></td>
-                <td class="tg-7zrl">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">COVID-19 Deaths April 2021</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021.</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
             </tbody>
           </table>
@@ -371,24 +380,19 @@
           <h2>About Us</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>This is a bit about the team</h3>
-            <p>
-              <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
-            </p>
-            <p>
-              <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
-            </p>
-            <p>
-              <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
-            </p>
-            <p>
-              This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website.
-            </p>
-          </div>
+          <h3>This is a bit about the team</h3>
+          <p>
+            <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
+          </p>
+          <p>
+            <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
+          </p>
+          <p>
+            <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
+          </p>
+          <p>
+            This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website.
+          </p>
         </div>
 
       </div>
