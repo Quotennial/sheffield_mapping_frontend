@@ -163,7 +163,7 @@
         <section id="about" class="services section-bg">
       <div class="container">
         <div class="section-title">
-          <h4>Static DUAL Data</h4>
+          <h4>Static SEPERATE MAPS Data</h4>
         </div>
         <div class="row">
           <div class="col-lg-6">
