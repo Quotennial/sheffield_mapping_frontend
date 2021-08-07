@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Mapping Project</title>
+  <title>COVID19 – Urban Density Mapping Project</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -61,28 +61,53 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Project Introduction Section ======= -->
   <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1> Mapping Project</h1><br>
-          <p class="description">This is a project about COVID using data and presenting in this geospatial tool </p>
-          <p class="description">The project uses kepler.gl to visualise socioeconomic metrics and Covid data.</p>
-          <p class="description">This is a project about COVID using data and presenting in this geospatial tool</p>
-
+          <h1> The Project</h1><br>
+          <p class="description">One of the most striking features of the COVID-19 pandemic is the marked spatial heterogeneity in both COVID-19 cases and deaths. Previous research has shown how such variation broadly reflects differences in the socio-economic structure across locations, and particular attention has been devoted to the analysis of population density. Yet, its relationship with the spread of COVID-19 remains unclear. </p>
+          <p class="description">Combining highly granular data at the neighbourhood level for England on COVID-19 cases and deaths, satellite imaging density and other socio-economic variables, we take a closer look at the relationship between urban density and the health consequences of COVID-19, disentangling between the role of population and employment density.</p>
+          <p class="description">This website provides an interactive mapping tool using kepler.gl to visualise the dynamic evolution of COVID-19 cases and deaths across neighbourhoods in England between March 2020 and April 2021, and to analyse its static spatial correlation with urban density and other socio-economic metrics. An advanced econometric analysis of the relationship between density and the health consequences of the COVID-19 pandemic is presented in the project research paper, offering novel evidence on the different effects exerted by population and employment density.</p>
+          <p class="description">This research project is part of a new line of empirical investigation that uses information from unstructured forms of data to fill the gaps in more conventional datasets. It provides important insights not just to better understand the determinants of diffusion of the virus, but equally to understand which areas could remain more at risk. A better understanding of the role of density is critical for public health policies directed at mitigating the diffusion of COVID. In particular, a more nuanced comprehension of where and how contagion takes place, whether at home or at the place of work, and in the latter case through which type of jobs, will be increasingly important. At the same time, this is also critical for designing policies addressing economic effects of the crisis.</p>
+          <p class="description">This research project has been developed in collaboration between the University of Sheffield and the University of Birmingham, funded by the Regional Studies Association grant scheme on “Pandemics, Cities, Regions & Industry”."</p>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 ">
           <img src="assets/img/placehodlermapimage.png" class="img-fluid " alt="">
         </div>
       </div>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main">
     <br>
+    <!-- ======= Timeseries VIZ ======= -->
+    <section id="about" class="services section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h4>Time Series Data</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+            Using this interactive dashboard you can visualise the dynamic evolution of COVID-19 cases and deaths across Middle Super output Area (MSOA) neighbourhoods in England between March 2020 and April 2021 using the time slider.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="Dynamic_Covid_Map.html"><img class="img-rounded" src="assets/img/dynamicbuttontoclick.png" style="height:400;width: 400px;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Viz alt Section -->
+
 
     <!-- ======= Static VIZ ======= -->
     <section id="about" class="services section-bg">
@@ -93,7 +118,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-              This map presents the static variables used in the study, and the most recent covid metrics. The left hand arrow allows you to view various explanatory vairables. MSOA areas are coloured based on these explanatory variables, which can be compared to covid cases shown by height in 3D view. You can toggle between metrics by hiding/ showing different layers. COVID statistics are as od April 2021.
+            Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
@@ -110,32 +135,20 @@
       </div>
     </section><!-- End Viz alt Section -->
 
-    <!-- ======= Timeseries VIZ ======= -->
     <section id="about" class="services section-bg">
       <div class="container">
         <div class="section-title">
-          <h4>Time Series Data</h4>
+          <h4>Research Paper</h4>
         </div>
         <div class="row">
           <div class="col-lg-6">
             <p>
-              This map presents the Time Series variables used in the study, and the most recent covid metrics. You can visualisse the change over time using the time slider.
+            Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
             </p>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <div class="text-center">
-              <h3 class="h5">
-                <small class="text-muted">Click Go to Map</small>
-              </h3>
-              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-              <a target=”_blank” href="Dynamic_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
-            </div>
-          </div>
         </div>
-
       </div>
     </section><!-- End Viz alt Section -->
-
 
 
     <!-- ======= Portfolio Section ======= -->
@@ -143,7 +156,11 @@
       <div class="container">
         <div class="row">
           <h4><a href="">Variable Descriptions</a></h4>
-
+          <div class="col-lg-6">
+            <p>
+            In the following table you can find a brief discussion of the data used in this project and of the data sources.
+            </p>
+          </div>
           <style type="text/css">
             .tg {
               border-collapse: collapse;
@@ -260,19 +277,18 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <h3>This is a bit about the team</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</li>
-            </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur.
+            <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics. 
             </p>
+            <p>
+            <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
+            </p>
+            <p>
+            <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.    
+             </p>
+            <p>
+            This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website. "
+           </p>
           </div>
         </div>
 
