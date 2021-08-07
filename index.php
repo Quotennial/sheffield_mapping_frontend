@@ -73,9 +73,17 @@
       </div>
       <div class="row">
         <p class="description">One of the most striking features of the COVID-19 pandemic is the marked spatial heterogeneity in both COVID-19 cases and deaths. Previous research has shown how such variation broadly reflects differences in the socio-economic structure across locations, and particular attention has been devoted to the analysis of population density. Yet, its relationship with the spread of COVID-19 remains unclear. </p>
+      </div>
+      <div class="row">
         <p class="description">Combining highly granular data at the neighbourhood level for England on COVID-19 cases and deaths, satellite imaging density and other socio-economic variables, we take a closer look at the relationship between urban density and the health consequences of COVID-19, disentangling between the role of population and employment density.</p>
+      </div>
+      <div class="row">
         <p class="description">This website provides an interactive mapping tool using kepler.gl to visualise the dynamic evolution of COVID-19 cases and deaths across neighbourhoods in England between March 2020 and April 2021, and to analyse its static spatial correlation with urban density and other socio-economic metrics. An advanced econometric analysis of the relationship between density and the health consequences of the COVID-19 pandemic is presented in the project research paper, offering novel evidence on the different effects exerted by population and employment density.</p>
+      </div>
+      <div class="row">
         <p class="description">This research project is part of a new line of empirical investigation that uses information from unstructured forms of data to fill the gaps in more conventional datasets. It provides important insights not just to better understand the determinants of diffusion of the virus, but equally to understand which areas could remain more at risk. A better understanding of the role of density is critical for public health policies directed at mitigating the diffusion of COVID. In particular, a more nuanced comprehension of where and how contagion takes place, whether at home or at the place of work, and in the latter case through which type of jobs, will be increasingly important. At the same time, this is also critical for designing policies addressing economic effects of the crisis.</p>
+      </div>
+      <div class="row">
         <p class="description">This research project has been developed in collaboration between the University of Sheffield and the University of Birmingham, funded by the Regional Studies Association grant scheme on “Pandemics, Cities, Regions & Industry”."</p>
       </div>
     </div>
