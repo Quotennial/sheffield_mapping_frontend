@@ -45,11 +45,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Visualisation</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Time Series</a></li>
-          <li><a class="nav-link scrollto" href="#team">Local Autorities</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#timeseries">Time Series</a></li>
+          <li><a class="nav-link scrollto" href="#static1">Static</a></li>
+          <li><a class="nav-link scrollto " href="#paper">Research Paper</a></li>
+          <li><a class="nav-link scrollto" href="#vardesc">Variable Descriptions</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -65,7 +65,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1> The Project</h1><br>
+          <h1> COVID19 – Urban Density Mapping Project</h1><br>
           <p class="description">One of the most striking features of the COVID-19 pandemic is the marked spatial heterogeneity in both COVID-19 cases and deaths. Previous research has shown how such variation broadly reflects differences in the socio-economic structure across locations, and particular attention has been devoted to the analysis of population density. Yet, its relationship with the spread of COVID-19 remains unclear. </p>
           <p class="description">Combining highly granular data at the neighbourhood level for England on COVID-19 cases and deaths, satellite imaging density and other socio-economic variables, we take a closer look at the relationship between urban density and the health consequences of COVID-19, disentangling between the role of population and employment density.</p>
           <p class="description">This website provides an interactive mapping tool using kepler.gl to visualise the dynamic evolution of COVID-19 cases and deaths across neighbourhoods in England between March 2020 and April 2021, and to analyse its static spatial correlation with urban density and other socio-economic metrics. An advanced econometric analysis of the relationship between density and the health consequences of the COVID-19 pandemic is presented in the project research paper, offering novel evidence on the different effects exerted by population and employment density.</p>
@@ -83,7 +83,7 @@
   <main id="main">
     <br>
     <!-- ======= Timeseries VIZ ======= -->
-    <section id="about" class="services section-bg">
+    <section id="timeseries" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Time Series Data</h4>
@@ -109,7 +109,7 @@
 
 
     <!-- ======= Static VIZ ======= -->
-    <section id="about" class="services section-bg">
+    <section id="static1" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Static Data</h4>
@@ -135,7 +135,7 @@
     </section><!-- End STATIC VIZ Section -->
 
     <!-- ======= Static VIZ DUAL ======= -->
-    <section id="about" class="services section-bg">
+    <section id="static1" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Static DUAL Data</h4>
@@ -160,7 +160,7 @@
     </section><!-- End STATIC VIZ DUAL Section -->
 
         <!-- ======= Static VIZ SEPERATE MAPS ======= -->
-        <section id="about" class="services section-bg">
+        <section id="static1" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Static SEPERATE MAPS Data</h4>
@@ -194,7 +194,7 @@
     </section><!-- End STATIC VIZ DUAL Section -->
 
         <!-- ======= RESEARCH PAPER ======= -->
-        <section id="about" class="services section-bg">
+        <section id="paper" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Research Paper</h4>
@@ -208,7 +208,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <div class="text-center">
               <h3 class="h5">
-                <small class="text-muted">Click Go to Map</small>
+                <small class="text-muted">Click to See the Paper</small>
               </h3>
               <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
               <a target=”_blank” href="assets/COVID_Density_Project.pdf"><img class="img-rounded" src="assets/img/paper_screenshot.png" style="height: 600px;width: 400px;"></a>
@@ -221,7 +221,7 @@
 
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="services section-bg">
+    <section id="vardesc" class="services section-bg">
       <div class="container">
         <div class="row">
           <h4><a href="">Variable Descriptions</a></h4>
