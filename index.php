@@ -132,7 +132,66 @@
         </div>
 
       </div>
-    </section><!-- End Viz alt Section -->
+    </section><!-- End STATIC VIZ Section -->
+
+    <!-- ======= Static VIZ DUAL ======= -->
+    <section id="about" class="services section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h4>Static DUAL Data</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+              Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="Static_Covid_Map_Dual.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End STATIC VIZ DUAL Section -->
+
+        <!-- ======= Static VIZ SEPERATE MAPS ======= -->
+        <section id="about" class="services section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h4>Static DUAL Data</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+              Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="Static_Covid_Map_Dual.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
+            </div>
+
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="Static_Covid_Map_Dual.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- End STATIC VIZ DUAL Section -->
 
     <section id="about" class="services section-bg">
       <div class="container">
