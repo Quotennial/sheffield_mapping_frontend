@@ -159,8 +159,8 @@
       </div>
     </section><!-- End STATIC VIZ DUAL Section -->
 
-        <!-- ======= Static VIZ SEPERATE MAPS ======= -->
-        <section id="static1" class="services section-bg">
+    <!-- ======= Static VIZ SEPERATE MAPS ======= -->
+    <section id="static1" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Static SEPERATE MAPS Data</h4>
@@ -193,8 +193,8 @@
       </div>
     </section><!-- End STATIC VIZ DUAL Section -->
 
-        <!-- ======= RESEARCH PAPER ======= -->
-        <section id="paper" class="services section-bg">
+    <!-- ======= RESEARCH PAPER ======= -->
+    <section id="paper" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Research Paper</h4>
@@ -202,8 +202,8 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-            Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
-              </p>
+              Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
+            </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <div class="text-center">
@@ -230,16 +230,20 @@
               In the following table you can find a brief discussion of the data used in this project and of the data sources.
             </p>
           </div>
+
           <style type="text/css">
             .tg {
               border-collapse: collapse;
+              border-color: #9ABAD9;
               border-spacing: 0;
             }
 
             .tg td {
-              border-color: black;
+              background-color: #EBF5FF;
+              border-color: #9ABAD9;
               border-style: solid;
               border-width: 1px;
+              color: #444;
               font-family: Arial, sans-serif;
               font-size: 14px;
               overflow: hidden;
@@ -248,9 +252,11 @@
             }
 
             .tg th {
-              border-color: black;
+              background-color: #409cff;
+              border-color: #9ABAD9;
               border-style: solid;
               border-width: 1px;
+              color: #fff;
               font-family: Arial, sans-serif;
               font-size: 14px;
               font-weight: normal;
@@ -259,75 +265,117 @@
               word-break: normal;
             }
 
-            .tg .tg-cly1 {
-              text-align: left;
-              vertical-align: middle
-            }
-
-            .tg .tg-7zrl {
+            .tg .tg-80ah {
+              background-color: #F9F9FA;
+              border-color: #333333;
               text-align: left;
               vertical-align: bottom
+            }
+
+            .tg .tg-c770 {
+              background-color: #F9F9FA;
+              border-color: #333333;
+              text-align: left;
+              vertical-align: bottom
+            }
+
+            .tg .tg-ege8 {
+              background-color: #D2E4FC;
+              border-color: #333333;
+              text-align: left;
+              vertical-align: bottom
+            }
+
+            .tg .tg-4gw0 {
+              border-color: #333333;
+              text-align: left;
+              vertical-align: bottom
+            }
+
+            .tg .tg-n6oa {
+              background-color: #D2E4FC;
+              border-color: #333333;
+              text-align: left;
+              vertical-align: top
+            }
+
+            .tg .tg-de2y {
+              border-color: #333333;
+              text-align: left;
+              vertical-align: top
             }
           </style>
           <table class="tg">
             <thead>
               <tr>
-                <th class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Variable Label</span></th>
-                <th class="tg-7zrl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Description</span></th>
+                <th class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Variable Label</span></th>
+                <th class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Description</span></th>
+                <th class="tg-4gw0">Source</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Deprivation Score</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation. Source: ONS</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Deprivation Score</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
+                <td class="tg-ege8">ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Health Deprivation Score</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health. Source: ONS</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Health Deprivation Score</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">English index of health and disability deprivation for 2019 at the Middle-layer Super Output Area, measuring the risk of premature death and the impairment of quality of life through poor physical or mental health.</span></td>
+                <td class="tg-4gw0">ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share Old Population</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share of old population (above 60 years old) over total population in the MSOA in 2019. Source: ONS</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share Old Population</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
+                <td class="tg-ege8">ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share White Ethnicity</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share White Ethnicity</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share of white ethnicity residents over total population in the MSOA in 2019. Source: ONS</span></td>
+                <td class="tg-4gw0">ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">House Crowding Rate</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">House crowding calculates as the total population divided by the number of residential properties in the MSOA. Source: ONS and Valuation Office Agency</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">House Crowding Rate</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
+                <td class="tg-n6oa">ONS and Valuation Office Agency</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Daytime Population Density</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Daytime Population Density</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Daytime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal daytime changes in the number of people per squared kilometer in 2011.</span></td>
+                <td class="tg-de2y">European Commission JRC</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Nighttime Population Density</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011. Source: European Commission JRC</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Nighttime Population Density</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
+                <td class="tg-n6oa">European Commission JRC</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Satellite Population Density</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques. Source: LandScan</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Satellite Population Density</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Population density at the MSOA level calculated using LandScan satellite data on the global population distribution at approximately 1 squared kilometer spatial resolution for 2019. This variable represents an ambient population distribution averaged over 24 hours and it is estimated using census demographic and geographic data together with remote sensing imagery analysis techniques.</span></td>
+                <td class="tg-4gw0">LandScan</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Population Density</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters. Source: ONS</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Population Density</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
+                <td class="tg-ege8">ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Employment Density</span></td>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA. Source: QLFS ONS</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Employment Density</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Share of resident keyworkers in the MSOA calculated as the number of employed residents in jobs that have to be done onsite divided by the total number of employed residents in the MSOA.</span></td>
+                <td class="tg-4gw0">QLFS ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">COVID-19 Cases April 2021</span></td>
-                <td class="tg-7zrl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021. Source: ONS</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">COVID-19 Cases April 2021</span></td>
+                <td class="tg-80ah"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
+                <td class="tg-ege8">ONS</td>
               </tr>
               <tr>
-                <td class="tg-cly1"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">COVID-19 Deaths April 2021</span></td>
-                <td class="tg-7zrl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021. Source: ONS</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">COVID-19 Deaths April 2021</span></td>
+                <td class="tg-c770"><span style="font-weight:normal;color:#000;background-color:#F9F9FA">Cumulative number of deaths of residents registered from COVID-19 by MSOA in each month between March 2020 and April 2021.</span></td>
+                <td class="tg-4gw0">ONS</td>
               </tr>
             </tbody>
           </table>
-
 
 
         </div>
