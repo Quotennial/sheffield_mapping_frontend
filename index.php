@@ -233,18 +233,14 @@
 
           <style type="text/css">
             .tg {
-              border: none;
               border-collapse: collapse;
-              border-color: #aabcfe;
               border-spacing: 0;
             }
 
             .tg td {
-              background-color: #e8edff;
-              border-color: #aabcfe;
+              border-color: black;
               border-style: solid;
-              border-width: 0px;
-              color: #669;
+              border-width: 1px;
               font-family: Arial, sans-serif;
               font-size: 14px;
               overflow: hidden;
@@ -253,11 +249,9 @@
             }
 
             .tg th {
-              background-color: #b9c9fe;
-              border-color: #aabcfe;
+              border-color: black;
               border-style: solid;
-              border-width: 0px;
-              color: #039;
+              border-width: 1px;
               font-family: Arial, sans-serif;
               font-size: 14px;
               font-weight: normal;
@@ -266,27 +260,11 @@
               word-break: normal;
             }
 
-            .tg .tg-34ux {
-              background-color: #D2E4FC;
-              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-              ;
-              text-align: left;
-              vertical-align: bottom
-            }
-
             .tg .tg-2nc7 {
               font-family: "Trebuchet MS", Helvetica, sans-serif !important;
               ;
               text-align: left;
               vertical-align: bottom
-            }
-
-            .tg .tg-wz43 {
-              background-color: #D2E4FC;
-              font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-              ;
-              text-align: left;
-              vertical-align: top
             }
 
             .tg .tg-zef7 {
@@ -306,9 +284,9 @@
             </thead>
             <tbody>
               <tr>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Deprivation Score</span></td>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
-                <td class="tg-34ux">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Deprivation Score</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">English index of multiple deprivation (IMD) for 2019 at the Middle-layer Super Output Areas, providing a measure of deprivation for small geographical areas across England based on seven different domains of deprivation: Income Deprivation, Employment Deprivation, Education, Skills and Training Deprivation, Health Deprivation and Disability, Crime, Barriers to Housing and Services, Living Environment Deprivation.</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Health Deprivation Score</span></td>
@@ -316,9 +294,9 @@
                 <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Share Old Population</span></td>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
-                <td class="tg-34ux">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share Old Population</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share of old population (above 60 years old) over total population in the MSOA in 2019.</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Share White Ethnicity</span></td>
@@ -326,9 +304,9 @@
                 <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">House Crowding Rate</span></td>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
-                <td class="tg-wz43">ONS and Valuation Office Agency</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">House Crowding Rate</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">House crowding calculates as the total population divided by the number of residential properties in the MSOA.</span></td>
+                <td class="tg-zef7">ONS and Valuation Office Agency</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Daytime Population Density</span></td>
@@ -336,9 +314,9 @@
                 <td class="tg-zef7">European Commission JRC</td>
               </tr>
               <tr>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Nighttime Population Density</span></td>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
-                <td class="tg-wz43">European Commission JRC</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Nighttime Population Density</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Nighttime population density at the MSOA level calculated using the ENACT-POP spatial raster dataset capturing the seasonal nighttime changes in the number of people per squared kilometer in 2011.</span></td>
+                <td class="tg-zef7">European Commission JRC</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Satellite Population Density</span></td>
@@ -346,9 +324,9 @@
                 <td class="tg-2nc7">LandScan</td>
               </tr>
               <tr>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Population Density</span></td>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
-                <td class="tg-34ux">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Population Density</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Population density in the MSOA calculated as the total population in the MSOA in 2019 divided by the total MSOA area in squared meters.</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Employment Density</span></td>
@@ -356,9 +334,9 @@
                 <td class="tg-2nc7">QLFS ONS</td>
               </tr>
               <tr>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">COVID-19 Cases April 2021</span></td>
-                <td class="tg-34ux"><span style="font-weight:normal;color:#000">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
-                <td class="tg-34ux">ONS</td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">COVID-19 Cases April 2021</span></td>
+                <td class="tg-2nc7"><span style="font-weight:normal;color:#000">Cumulative number of residents positive to COVID-19 by MSOA in each week between March 2020 and April 2021.</span></td>
+                <td class="tg-2nc7">ONS</td>
               </tr>
               <tr>
                 <td class="tg-2nc7"><span style="font-weight:normal;color:#000">COVID-19 Deaths April 2021</span></td>
@@ -380,7 +358,7 @@
           <h2>About Us</h2>
         </div>
         <div class="row">
-          <h3>This is a bit about the team</h3>
+          <h3>About Us</h3>
           <p>
             <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
           </p>
