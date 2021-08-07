@@ -226,7 +226,7 @@
       <div class="container">
         <div class="row">
           <h4><a href="">Variable Descriptions</a></h4>
-          <div class="col-lg-6">
+          <div>
             <p>
               In the following table you can find a brief discussion of the data used in this project and of the data sources.
             </p>
