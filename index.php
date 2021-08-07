@@ -38,13 +38,10 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+  <!-- <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="https://www.sheffield.ac.uk/economics"><img src="assets/img/logo.jpeg" /></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -56,10 +53,11 @@
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header> -->
+  <!-- End Header -->
 
   <!-- ======= Project Introduction Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -73,6 +71,7 @@
           <p class="description">This website provides an interactive mapping tool using kepler.gl to visualise the dynamic evolution of COVID-19 cases and deaths across neighbourhoods in England between March 2020 and April 2021, and to analyse its static spatial correlation with urban density and other socio-economic metrics. An advanced econometric analysis of the relationship between density and the health consequences of the COVID-19 pandemic is presented in the project research paper, offering novel evidence on the different effects exerted by population and employment density.</p>
           <p class="description">This research project is part of a new line of empirical investigation that uses information from unstructured forms of data to fill the gaps in more conventional datasets. It provides important insights not just to better understand the determinants of diffusion of the virus, but equally to understand which areas could remain more at risk. A better understanding of the role of density is critical for public health policies directed at mitigating the diffusion of COVID. In particular, a more nuanced comprehension of where and how contagion takes place, whether at home or at the place of work, and in the latter case through which type of jobs, will be increasingly important. At the same time, this is also critical for designing policies addressing economic effects of the crisis.</p>
           <p class="description">This research project has been developed in collaboration between the University of Sheffield and the University of Birmingham, funded by the Regional Studies Association grant scheme on “Pandemics, Cities, Regions & Industry”."</p>
+          <p class="description"></p>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 ">
           <img src="assets/img/placehodlermapimage.png" class="img-fluid " alt="">
@@ -92,7 +91,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-            Using this interactive dashboard you can visualise the dynamic evolution of COVID-19 cases and deaths across Middle Super output Area (MSOA) neighbourhoods in England between March 2020 and April 2021 using the time slider.
+              Using this interactive dashboard you can visualise the dynamic evolution of COVID-19 cases and deaths across Middle Super output Area (MSOA) neighbourhoods in England between March 2020 and April 2021 using the time slider.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
@@ -118,7 +117,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-            Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
+              Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
@@ -127,7 +126,7 @@
                 <small class="text-muted">Click Go to Map</small>
               </h3>
               <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-              <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/buttontoclick.png" style="height:400;width: 400px;"></a>
+              <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
             </div>
           </div>
         </div>
@@ -143,7 +142,7 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-            Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
+              Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
             </p>
           </div>
         </div>
@@ -158,7 +157,7 @@
           <h4><a href="">Variable Descriptions</a></h4>
           <div class="col-lg-6">
             <p>
-            In the following table you can find a brief discussion of the data used in this project and of the data sources.
+              In the following table you can find a brief discussion of the data used in this project and of the data sources.
             </p>
           </div>
           <style type="text/css">
@@ -278,17 +277,17 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <h3>This is a bit about the team</h3>
             <p>
-            <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics. 
+              <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
             </p>
             <p>
-            <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
+              <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
             </p>
             <p>
-            <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.    
-             </p>
+              <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
+            </p>
             <p>
-            This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website. "
-           </p>
+              This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website.
+            </p>
           </div>
         </div>
 
