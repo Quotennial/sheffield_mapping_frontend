@@ -174,26 +174,27 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <div class="text-center">
               <h3 class="h5">
-                <small class="text-muted">Click Go to Map</small>
+                <small class="text-muted">Click to Compare Cases</small>
               </h3>
               <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-              <a target=”_blank” href="Static_Covid_Map_Dual.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
+              <a target=”_blank” href="Static_Covid_Map_Cases.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
             </div>
 
             <div class="text-center">
               <h3 class="h5">
-                <small class="text-muted">Click Go to Map</small>
+                <small class="text-muted">Click to Compare Deaths</small>
               </h3>
               <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-              <a target=”_blank” href="Static_Covid_Map_Dual.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
+              <a target=”_blank” href="Static_Covid_Map_Deaths.html"><img class="img-rounded" src="assets/img/static_deaths_screenshot.png" style="height:400;width: 400px;"></a>
             </div>
-            
+
           </div>
         </div>
       </div>
     </section><!-- End STATIC VIZ DUAL Section -->
 
-    <section id="about" class="services section-bg">
+        <!-- ======= RESEARCH PAPER ======= -->
+        <section id="about" class="services section-bg">
       <div class="container">
         <div class="section-title">
           <h4>Research Paper</h4>
@@ -201,13 +202,22 @@
         <div class="row">
           <div class="col-lg-6">
             <p>
-              Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
-            </p>
-            <p>Open a PDF file <a href="assets/COVID_Density_Project.pdf">example</a>.</p>
+            Using newly available big data in the area of satellite imaging in combination with traditional labour market and public health data for neighbourhoods in England between March 2020 and April 2021, we analyse the dynamic relationship between density and the health consequences of the COVID-19 pandemic, offering novel evidence on the different effects exerted by population and employment density. Our results show that the concentration of resident key workers, providing an essential service which cannot be done remotely and thus carrying on working onsite throughout the pandemic, increases the incidence of COVID-19 in the neighborhood both in terms of cases and of deaths. This effect is exacerbated in the most deprived neighborhoods characterised by lower income, health deprivation and crowded housing conditions, which facilitate even further the spread of the virus. However, our results show how lockdowns and other public health restrictions can mitigate this relationship, particularly in the most deprived areas, by partially shielding key workers. These findings provide important insights for designing future economic policies and public health strategies, targeting more precisely the neighborhoods more vulnerable from an economic as well as a contagion perspective.
+              </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <div class="text-center">
+              <h3 class="h5">
+                <small class="text-muted">Click Go to Map</small>
+              </h3>
+              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
+              <a target=”_blank” href="assets/COVID_Density_Project.pdf"><img class="img-rounded" src="assets/img/paper_screenshot.png" style="height: 600px;width: 400px;"></a>
+            </div>
           </div>
         </div>
+
       </div>
-    </section><!-- End Viz alt Section -->
+    </section><!-- End RESEARCH PAPER SECTION -->
 
 
     <!-- ======= Portfolio Section ======= -->
