@@ -394,12 +394,12 @@
 
     <div class="container footer-bottom clearfix">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-8">
           <p>
             This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
           </p>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 content">
+        <div class="col-4">
           <div class="text-center">
             <a target=”_blank”><img class="img-rounded" src="assets/img/rsalogo.png" style="width:228px;height:128px;"></a>
           </div>
