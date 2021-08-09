@@ -505,35 +505,35 @@ h6 {
 
 #timeseries {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: #f9f9fa;
     padding-bottom: 50px;
 }
 
 #static1 {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: #fff;
     padding-bottom: 50px;
 }
 
 #paper {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: #f9f9fa;
     padding-bottom: 50px;
 }
 
 #vardesc {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: #fff;
     padding-bottom: 50px;
 }
 
 #about {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: #f9f9fa;
     padding-bottom: 50px;
 }
