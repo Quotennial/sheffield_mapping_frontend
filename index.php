@@ -109,62 +109,11 @@
     </section><!-- End Viz alt Section -->
 
 
-    <!-- ======= Static VIZ ======= -->
-    <section id="static1" class="services section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h4>Static Data</h4>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <p>
-              Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
-            </p>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <div class="text-center">
-              <h3 class="h5">
-                <small class="text-muted">Click Go to Map</small>
-              </h3>
-              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-              <a target=”_blank” href="Static_Covid_Map.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End STATIC VIZ Section -->
-
-    <!-- ======= Static VIZ DUAL ======= -->
-    <section id="static1" class="services section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h4>Static DUAL Data</h4>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <p>
-              Using this interactive dashboard you can map the spatial correlation between COVID cumulative cases deaths at the end of April 2021, population and employment density, and several relevant socio-economic factors (deprivation, health, house crowding, ethnicity, age…). Selecting a variable in the left-hand panel you will visualise the spatial correlation at the Middle Super output Area (MSOA) between the variable distribution represented by the choropleth map and COVID cases or deaths represented by the polygon height in the 3D view. You can toggle between metrics by hiding/showing different layers.
-            </p>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <div class="text-center">
-              <h3 class="h5">
-                <small class="text-muted">Click Go to Map</small>
-              </h3>
-              <!-- <p class="text-center text-secondary mt-0">Click Go to Map</p> -->
-              <a target=”_blank” href="Static_Covid_Map_Dual.html"><img class="img-rounded" src="assets/img/placehodlermapimage.png" style="height:400;width: 400px;"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End STATIC VIZ DUAL Section -->
-
     <!-- ======= Static VIZ SEPERATE MAPS ======= -->
     <section id="static1" class="services section-bg">
       <div class="container">
         <div class="section-title">
-          <h4>Static SEPERATE MAPS Data</h4>
+          <h4>Static Data</h4>
         </div>
         <div class="row">
           <div class="col-lg-6">
@@ -372,9 +321,39 @@
 
         </div>
         <br>
+    </section><!-- End TABLE Section -->
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>This is a bit about the team</h3>
+            <p>
+              <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
+            </p>
+            <p>
+              <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
+            </p>
+            <p>
+              <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
+            </p>
+            <p>
+              This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website. "
+            </p>
+
+            <p>If you would like to know more about the project, please contace Enrico Vanino: e.vanino@sheffield.ac.uk</p>
+          </div>
+        </div>
+      </div>
     </section><!-- End About Section -->
-
-
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -420,11 +399,11 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        Sheffield University Economics Department
+        This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
       </div>
-      <!-- <div class="credits">
-        Designed by <a href="">Hammad Yasir</a>
-      </div> -->
+      <div class="credits">
+        <h1 class="logo"><a href="https://www.sheffield.ac.uk/economics"><img src="assets/img/logo.jpeg" /></a></h1>
+      </div>
     </div>
   </footer><!-- End Footer -->
 
