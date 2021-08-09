@@ -393,14 +393,18 @@
   <footer id="footer">
 
     <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
+      <div class="row">
+        <div class="col-lg-6">
+          <p>
+            This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
+          </p>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="text-center">
+            <a target=”_blank”><img class="img-rounded" src="assets/img/rsalogo.png" style="width:228px;height:128px;"></a>
+          </div>
+        </div>
       </div>
-      <!-- <div class="credits"> -->
-      <div class="col-lg-6 pt-4 pt-lg-0 content">
-        <h1 class="logo"><a><img src="assets/img/rsalogo.jpeg" , style="width:228px;height:128px;" /></a></h1>
-      </div>
-    </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
