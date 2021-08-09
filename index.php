@@ -331,7 +331,6 @@
           <h3>About Us</h3>
         </div>
         <div class="row">
-          <h3>This is a bit about the team</h3>
           <p>
             <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
           </p>
