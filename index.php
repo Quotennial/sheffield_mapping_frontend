@@ -345,7 +345,7 @@
             This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website. "
           </p>
 
-          <p>If you would like to know more about the project, please contace Enrico Vanino: e.vanino@sheffield.ac.uk</p>
+          <p>If you would like to know more about the project, please contact Enrico Vanino: <a href="mailto:e.vanino@sheffield.ac.uk">e.vanino@sheffield.ac.uk</a>.<br> </p>
         </div>
       </div>
     </section><!-- End About Section -->
@@ -396,8 +396,9 @@
       <div class="copyright">
         This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
       </div>
-      <div class="credits">
-        <h1 class="logo"><a><img src="assets/img/logo.jpeg" , style="width:228px;height:128px;" /></a></h1>
+      <!-- <div class="credits"> -->
+      <div class="col-lg-6 pt-4 pt-lg-0 content">
+        <h1 class="logo"><a><img src="assets/img/rsalogo.jpeg" , style="width:228px;height:128px;" /></a></h1>
       </div>
     </div>
   </footer><!-- End Footer -->
