@@ -350,44 +350,6 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-12 mt-12 mt-lg-0 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>9 Mappin St, Sheffield City Centre, Sheffield S1 4DT</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>econ@sheffield.ac.uk</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+ 0114 222 5151</p>
-              </div>
-
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13613.293980442373!2d74.32354245!3d31.460286199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1624361784898!5m2!1sen!2s" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
-            </div>
-
-          </div>
-
-
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
