@@ -402,7 +402,7 @@
         This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
       </div>
       <div class="credits">
-        <h1 class="logo"><a href="https://www.sheffield.ac.uk/economics"><img src="assets/img/logo.jpeg" /></a></h1>
+        <h1 class="logo"><a><img src="assets/img/logo.jpeg"/></a></h1>
       </div>
     </div>
   </footer><!-- End Footer -->
