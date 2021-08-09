@@ -541,6 +541,7 @@ h6 {
 section {
     padding: 0px 0;
     overflow: visible;
+    padding-bottom: 10px;
 }
 
 .section-bg {
