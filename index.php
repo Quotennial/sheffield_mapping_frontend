@@ -331,26 +331,21 @@
           <h2>About Us</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-            <h3>This is a bit about the team</h3>
-            <p>
-              <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
-            </p>
-            <p>
-              <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
-            </p>
-            <p>
-              <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
-            </p>
-            <p>
-              This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website. "
-            </p>
+          <h3>This is a bit about the team</h3>
+          <p>
+            <b>Dr. Enrico Vanino</b> - Enrico is a Lecturer (Assistant Professor) in the Department of Economics at the University of Sheffield. He works on issues related to international economics, urban and regional economics, firms' productivity and the economics of innovation. Prior to joining the University of Sheffield, he worked as a Fellow in Economic Geography at the London School of Economics.
+          </p>
+          <p>
+            <b>Dr. Carlo Corradini</b> – Carlo Corradini is a Senior Lecturer (Associate Professor) in regional economics at the University of Birmingham and associate editor for the journal Regional Studies. His research interests and expertise encompass areas such as regional innovation systems and economic development, industry and technological change, as well as evolutionary economic geography. He is also working on spatial big data analytics and intangible dimensions of regional dynamics.
+          </p>
+          <p>
+            <b> Dr. Jesse Matheson</b> - Jesse is a Senior Lecturer (Associate Professor) in the Department of Economics at the University of Sheffield. He has previously taught at the University of Leicester and the University of Calgary. His research covers topics in public, labour and health economics. Previous work considers the effectiveness of policy interventions that target vulnerable populations. His current research is focused on the economic determinants, and consequences, of the spatial distribution of labour within urban settings. Of particular interest is the implications this has for economic recovery following the Covid-19 public health crisis.
+          </p>
+          <p>
+            This research project has been developed thanks to the useful assistance of Rhiannon Thomas in preparing the satellite imaging data, and Yusuf Sohoye for the development of the mapping tool and of this website. "
+          </p>
 
-            <p>If you would like to know more about the project, please contace Enrico Vanino: e.vanino@sheffield.ac.uk</p>
-          </div>
+          <p>If you would like to know more about the project, please contace Enrico Vanino: e.vanino@sheffield.ac.uk</p>
         </div>
       </div>
     </section><!-- End About Section -->
@@ -402,7 +397,7 @@
         This research project and website have been developed thanks to the RSA small grant scheme on Pandemics, Cities, Regions & Industry.
       </div>
       <div class="credits">
-        <h1 class="logo"><a><img src="assets/img/logo.jpeg"/></a></h1>
+        <h1 class="logo"><a><img src="assets/img/logo.jpeg" , style="width:228px;height:128px;" /></a></h1>
       </div>
     </div>
   </footer><!-- End Footer -->
