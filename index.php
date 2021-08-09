@@ -173,7 +173,7 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="vardesc" class="services section-bg">
       <div class="container">
-        <div class="row">
+        <div class="section-title">
           <h4>Variable Descriptions</h4>
           <div>
             <p>
@@ -328,7 +328,7 @@
     <section id="about" class="about">
       <div class="container">
         <div class="section-title">
-          <h2>About Us</h2>
+          <h3>About Us</h3>
         </div>
         <div class="row">
           <h3>This is a bit about the team</h3>
