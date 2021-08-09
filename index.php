@@ -175,6 +175,7 @@
       <div class="container">
         <div class="section-title">
           <h4>Variable Descriptions</h4>
+        </div>
           <div>
             <p>
               In the following table you can find a brief discussion of the data used in this project and of the data sources.
