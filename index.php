@@ -174,7 +174,7 @@
     <section id="vardesc" class="services section-bg">
       <div class="container">
         <div class="row">
-          <h4><a href="">Variable Descriptions</a></h4>
+          <h4>Variable Descriptions</h4>
           <div>
             <p>
               In the following table you can find a brief discussion of the data used in this project and of the data sources.
